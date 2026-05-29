@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&display=swap');
+
+/* 
+<weight>: Use a value from 400 to 700
+<uniquifier>: Use a unique and descriptive class name
+*/
+
+.lora-font {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pacifico-font {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(189, 193, 218);
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: auto;
+    align-items: center;
+    padding: 10px;
+    filter: drop-shadow(5px 5px 10px rgba(155, 20, 20));
+    /*
+    box-shadow: 5px 5px 10px rgb(155, 20, 20);
+    */
+}
+
+.logo-menu {
+    display: block;
+    margin: auto;
+    width: 20px;
+    height: auto;
+}
+
+header {
+    background-color: rgb(0, 200, 235);
+    text-align: center;
+    color: rgb(236, 223, 39);
+    padding: 6px;
+}
+
+
+footer {
+    background-color: rgb(0, 255, 0);
+    padding: 20px;
+
+}
+
+.hero-section {
+    background-image: url(../assets/img/MainIMG.png);
+    height: 200px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.feature-section {
+
+    padding: 20px;
+}
+
+
+.feature-section img {
+    height: 100px;
+    width: auto;
+    object-fit: cover;
+}
+
+
+.carousel-section {
+    background-color: #f3aeae;
+    padding: 30px;
+}
+
+.carousel-caption h5 {
+    color: yellow;
+}
+
+.carousel-caption p {
+    color: rgb(247, 18, 18);
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+}
+
+.carousel {
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgb(155, 20, 20);
+}
